@@ -24,5 +24,10 @@ namespace Test1
         {
             InitializeComponent();
         }
+
+        private void b1_Click(object sender, RoutedEventArgs e)
+        {
+            t1.Text = "Hello World";
+        }
     }
 }
